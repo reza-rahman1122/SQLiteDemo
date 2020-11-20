@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="clear_text"
+        >
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter your Id:">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="clear_text">
+        <EditText
+            android:id="@+id/id_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter your name:">
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="clear_text"
+        >
+
+        <EditText
+            android:id="@+id/id_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:hint="Enter your phone no:"
+            >
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="3dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:endIconMode="clear_text"
+        >
+
+        <EditText
+            android:id="@+id/id_blood_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:hint="Enter your Blood Group:"
+            >
+
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/id_button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="save"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/id_button_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Show"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/id_button_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="delete"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        >
+
+    </Button>
+
+</LinearLayout>
